@@ -3,7 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UI with daisy UI</title>
+    <title>Biker Zone with daisy UI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- navigation section -->
+    <header class="bg-teal-950 m-4 rounded-lg">
+      <ul class="menu menu-horizontal text-white flex justify-end">
+        <li><a>Home</a></li>
+        <li><a>Shop</a></li>
+        <li><a>News</a></li>
+        <li><a>Contact</a></li>
+        <li><button class="btn btn-error">LogIn</button></li>
+      </ul>
+
+      <!-- cover section  parent-->
+      <div class="flex flex-col md:flex-row lg:flex-row p-2">
+        <div class="w-2/4">
+          <p>
+            Computer-controlled digital transistorized with electronic advance
+          </p>
+          <h1 class="text-5xl">Honda CBR 300R</h1>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <button class="btn btn btn-error p-2 text-white text-md m-2">
+            Purchase
+          </button>
+        </div>
+        <div class="header-img w-10/12">
+          <img src="./images/slider/bike3.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!--  featured bike in this year -->
+      <section class="m-4">
+        <h1 class="text-4xl">Featured Bikes In This Year</h1>
+        <p>Best Bike Collection</p>
+      </section>
+    </main>
+  </body>
 </html>
